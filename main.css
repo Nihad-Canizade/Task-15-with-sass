@@ -233,14 +233,18 @@ nav ul li:hover .nav-2 ul li a {
   margin-top: 1rem;
 }
 
-.page4 .img1, .page4 .img2, .page4 .img3 {
+.page4 .img1,
+.page4 .img2,
+.page4 .img3 {
   width: 400px;
   height: 600px;
   background-size: cover;
   background-position: center;
 }
 
-.page4 .img1:hover, .page4 .img2:hover, .page4 .img3:hover {
+.page4 .img1:hover,
+.page4 .img2:hover,
+.page4 .img3:hover {
   cursor: pointer;
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
@@ -313,11 +317,479 @@ nav ul li:hover .nav-2 ul li a {
   gap: 10px;
 }
 
-.page4 .cricle1, .page4 .cricle2, .page4 .cricle3, .page4 .cricle4 {
+.page4 .cricle1,
+.page4 .cricle2,
+.page4 .cricle3,
+.page4 .cricle4 {
   width: 8px;
   height: 8px;
   background-color: grey;
   cursor: pointer;
+}
+
+.page5 {
+  width: 100%;
+  height: 1350px;
+  background-color: #eceaea;
+}
+
+.page5 .forline4 {
+  color: #eceaea;
+  text-decoration: line-through;
+  -webkit-text-decoration-color: orange;
+          text-decoration-color: orange;
+  text-align: center;
+}
+
+.page5 h1 {
+  text-align: center;
+  font-size: 45px;
+}
+
+.page5 .boxs {
+  margin-top: 5rem;
+}
+
+.page5 .boxs .box12, .page5 .boxs .box34, .page5 .boxs .box56, .page5 .boxs .box78 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page5 .boxs .box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page5 .boxs .box1 h3 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.page5 .boxs .box1 p {
+  color: #939393;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  line-height: 25px;
+}
+
+.page5 .boxs .box1 span {
+  color: orange;
+  font-size: 30px;
+  margin-left: 1rem;
+}
+
+.page5 .boxs .box1 .box1-1, .page5 .boxs .box1 .box1-1-img {
+  width: 300px;
+  height: 250px;
+  background-color: white;
+}
+
+.page5 .boxs .box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page5 .boxs .box2 h3 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.page5 .boxs .box2 p {
+  color: #939393;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  line-height: 25px;
+}
+
+.page5 .boxs .box2 span {
+  color: orange;
+  font-size: 30px;
+  margin-left: 1rem;
+}
+
+.page5 .boxs .box2 .box2-1, .page5 .boxs .box2 .box2-1-img {
+  width: 300px;
+  height: 250px;
+  background-color: white;
+}
+
+.page5 .boxs .box3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page5 .boxs .box3 h3 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.page5 .boxs .box3 p {
+  color: #939393;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  line-height: 25px;
+}
+
+.page5 .boxs .box3 span {
+  color: orange;
+  font-size: 30px;
+  margin-left: 1rem;
+}
+
+.page5 .boxs .box3 .box3-1, .page5 .boxs .box3 .box3-1-img {
+  width: 300px;
+  height: 250px;
+  background-color: white;
+}
+
+.page5 .boxs .box4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page5 .boxs .box4 h3 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.page5 .boxs .box4 p {
+  color: #939393;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  line-height: 25px;
+}
+
+.page5 .boxs .box4 span {
+  color: orange;
+  font-size: 30px;
+  margin-left: 1rem;
+}
+
+.page5 .boxs .box4 .box4-1, .page5 .boxs .box4 .box4-1-img {
+  width: 300px;
+  height: 250px;
+  background-color: white;
+}
+
+.page5 .boxs .box5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page5 .boxs .box5 h3 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.page5 .boxs .box5 p {
+  color: #939393;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  line-height: 25px;
+}
+
+.page5 .boxs .box5 span {
+  color: orange;
+  font-size: 30px;
+  margin-left: 1rem;
+}
+
+.page5 .boxs .box5 .box5-1, .page5 .boxs .box5 .box5-1-img {
+  width: 300px;
+  height: 250px;
+  background-color: white;
+}
+
+.page5 .boxs .box6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page5 .boxs .box6 h3 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.page5 .boxs .box6 p {
+  color: #939393;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  line-height: 25px;
+}
+
+.page5 .boxs .box6 span {
+  color: orange;
+  font-size: 30px;
+  margin-left: 1rem;
+}
+
+.page5 .boxs .box6 .box6-1, .page5 .boxs .box6 .box6-1-img {
+  width: 300px;
+  height: 250px;
+  background-color: white;
+}
+
+.page5 .boxs .box7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page5 .boxs .box7 h3 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.page5 .boxs .box7 p {
+  color: #939393;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  line-height: 25px;
+}
+
+.page5 .boxs .box7 span {
+  color: orange;
+  font-size: 30px;
+  margin-left: 1rem;
+}
+
+.page5 .boxs .box7 .box7-1, .page5 .boxs .box7 .box7-1-img {
+  width: 300px;
+  height: 250px;
+  background-color: white;
+}
+
+.page5 .boxs .box8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page5 .boxs .box8 h3 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.page5 .boxs .box8 p {
+  color: #939393;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  line-height: 25px;
+}
+
+.page5 .boxs .box8 span {
+  color: orange;
+  font-size: 30px;
+  margin-left: 1rem;
+}
+
+.page5 .boxs .box8 .box8-1, .page5 .boxs .box8 .box8-1-img {
+  width: 300px;
+  height: 250px;
+  background-color: white;
+}
+
+.page6 {
+  width: 100%;
+  height: 500px;
+}
+
+.page6 .forline5 {
+  color: white;
+  text-decoration: line-through;
+  -webkit-text-decoration-color: orange;
+          text-decoration-color: orange;
+  text-align: center;
+}
+
+.page6 h1 {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 50px;
+}
+
+.page6 .page6-text {
+  text-align: center;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.page6 .cricle-forimg {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border-radius: 9999px;
+  background-image: url(https://tricky-photoshop.com/wp-content/uploads/2017/08/final-1.png);
+  background-size: cover;
+}
+
+.page6 h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.page6 .mng {
+  text-align: center;
+  margin-top: 2px;
+  color: #939393;
+}
+
+.page6 .kubs {
+  margin-top: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+
+.page6 .kubs .kub1, .page6 .kubs .kub2, .page6 .kubs .kub3 {
+  width: 8px;
+  height: 8px;
+  background-color: gray;
+  cursor: pointer;
+}
+
+.page7 {
+  width: 100%;
+  height: 900px;
+  background-color: #eceaea;
+}
+
+.page7 .forline6 {
+  color: #eceaea;
+  text-decoration: line-through;
+  -webkit-text-decoration-color: orange;
+          text-decoration-color: orange;
+  text-align: center;
+}
+
+.page7 h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.page7 .isvts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5rem;
+  gap: 20px;
+}
+
+.page7 .isvts .itv1, .page7 .isvts .itv2 {
+  width: 600px;
+  height: 600px;
+  background-color: white;
+}
+
+.page7 .isvts .itv1 img {
+  width: 100%;
+  height: 60%;
+  background-size: cover;
+}
+
+.page7 .isvts .itv1 .itv1-1 h3 {
+  margin-left: 2rem;
+  color: orange;
+}
+
+.page7 .isvts .itv1 .itv1-1 p {
+  margin-left: 2rem;
+  color: #939393;
+  line-height: 25px;
+}
+
+.page7 .isvts .itv1 .itv1-1 button {
+  font-size: 12px;
+  padding: 10px 20px;
+  border: 1px solid orange;
+  background-color: orange;
+  color: white;
+  margin-left: 2rem;
+}
+
+.page7 .isvts .itv1 .itv1-1 button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.page7 .isvts .itv2 img {
+  width: 100%;
+  height: 60%;
+  background-size: cover;
+}
+
+.page7 .isvts .itv2 .itv2-1 h3 {
+  margin-left: 2rem;
+  color: orange;
+}
+
+.page7 .isvts .itv2 .itv2-1 p {
+  margin-left: 2rem;
+  color: #939393;
+  line-height: 25px;
+}
+
+.page7 .isvts .itv2 .itv2-1 button {
+  font-size: 12px;
+  padding: 10px 20px;
+  border: 1px solid orange;
+  background-color: orange;
+  color: white;
+  margin-left: 2rem;
+}
+
+.page7 .isvts .itv2 .itv2-1 button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
@@ -377,7 +849,9 @@ nav ul li:hover .nav-2 ul li a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .page3 .img1, .page3 .img2, .page3 .img3 {
+  .page3 .img1,
+  .page3 .img2,
+  .page3 .img3 {
     margin: auto;
   }
   .page4 {
@@ -389,7 +863,26 @@ nav ul li:hover .nav-2 ul li a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .page4 .imgs .img1, .page4 .imgs .img2, .page4 .imgs .img3 {
+  .page4 .imgs .img1,
+  .page4 .imgs .img2,
+  .page4 .imgs .img3 {
+    margin: auto;
+  }
+  .page5 {
+    margin-top: 80rem;
+    height: auto;
+  }
+  .box12, .box34, .box56, .box78 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin: auto;
   }
 }
