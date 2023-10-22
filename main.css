@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.page1 nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100%;
+  height: 900px;
+  background-image: url(https://wallpaperaccess.com/full/767252.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 1rem;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 10rem), 0 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 10rem), 0 100%);
+}
+
+.page1 nav h2 {
+  color: white;
+  position: absolute;
+  left: 10rem;
+}
+
+.page1 nav ul .i2 {
+  color: white;
+  margin-left: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.page1 nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.page1 nav ul li .i1 {
+  color: white;
+  margin-left: 5px;
+}
+
+.page1 nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.page1 h1 {
+  text-align: center;
+  -webkit-transform: translateY(-35rem);
+          transform: translateY(-35rem);
+  font-size: 60px;
+  color: white;
+}
+
+.page1 button {
+  font-size: 15px;
+  padding: 15px 25px;
+  border: 2px  solid white;
+  color: white;
+  position: absolute;
+  margin-top: -35rem;
+  margin-left: 45%;
+  background-color: transparent;
+}
+
+.page1 button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.nav-2 {
+  display: none;
+}
+
+nav ul li:hover .nav-2 {
+  display: block;
+  position: absolute;
+  background-color: white;
+  margin-top: 10px;
+}
+
+nav ul li:hover .nav-2 ul li {
+  display: block;
+}
+
+nav ul li:hover .nav-2 ul li a {
+  color: black;
+}
+
+.nav-2 ul li:hover {
+  background-color: orange;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .page1 nav ul li a,
+  .page1 nav ul li .i1 {
+    display: none;
+  }
+  .page1 nav ul .i2 {
+    display: block;
+    position: absolute;
+    margin-top: -1.6rem;
+    right: 2rem;
+  }
+  .page1 nav ul h2 {
+    left: 2rem;
+  }
+  .page1 button {
+    margin-left: 38%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

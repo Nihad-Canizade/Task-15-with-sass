@@ -1,0 +1,184 @@
+// Varibles for website
+$text-color: rgb(147, 147, 147);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+// Navbar
+
+.page1 {
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 50px;
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 100%;
+        height: 900px;
+
+
+        h2 {
+            color: white;
+            position: absolute;
+            left: 10rem;
+        }
+
+        ul {
+
+            .i2 {
+                color: white;
+                margin-left: 20px;
+                font-size: 30px;
+                cursor: pointer;
+                display: none;
+            }
+
+            li {
+                list-style: none;
+                display: inline-block;
+                padding: 10px 20px;
+
+                .i1 {
+                    color: white;
+                    margin-left: 5px;
+                }
+
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+
+
+        // Page 1
+
+        background-image: url(https://wallpaperaccess.com/full/767252.jpg);
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 1rem;
+        clip-path: polygon(0% 0%,
+            100% 0%,
+            100% calc(100% - 10rem),
+            0 100%)
+    }
+
+
+    // Page 1 Text
+
+    h1 {
+        text-align: center;
+        transform: translateY(-35rem);
+        font-size: 60px;
+        color: white;
+    }
+
+    button{
+        font-size: 15px;
+        padding: 15px 25px;
+        border: 2px  solid white;
+        color: white;
+        position: absolute;
+        margin-top: -35rem;
+        margin-left: 45%;
+        background-color: transparent;
+    }
+
+    button:hover{
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        transition: .3s;
+    }
+}
+
+
+// Navbar DropDown
+
+.nav-2 {
+    display: none;
+}
+
+nav {
+    ul {
+        li:hover .nav-2 {
+            display: block;
+            position: absolute;
+            background-color: white;
+            margin-top: 10px;
+        }
+    }
+}
+
+nav {
+    ul {
+        li:hover .nav-2 {
+            ul {
+                li {
+                    display: block;
+
+                    a {
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.nav-2 {
+    ul {
+        li:hover {
+            background-color: orange;
+            transition: .2s;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+// Responsive with media
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .page1 {
+        nav {
+            ul {
+                li {
+
+                    a,
+                    .i1 {
+                        display: none;
+                    }
+                }
+
+                .i2 {
+                    display: block;
+                    position: absolute;
+                    margin-top: -1.6rem;
+                    right: 2rem;
+                }
+
+                h2 {
+                    left: 2rem;
+                }
+            }
+        }
+
+        button{
+            margin-left: 38%;
+        }
+    }
+
+
+}
