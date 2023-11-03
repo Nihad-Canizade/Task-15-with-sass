@@ -2,9 +2,9 @@
 $text-color: rgb(147, 147, 147);
 $bg-color: rgb(236, 234, 234);
 $myFont: 'Franklin Gothic Medium',
-'Arial Narrow',
-Arial,
-sans-serif;
+    'Arial Narrow',
+    Arial,
+    sans-serif;
 
 
 * {
@@ -25,7 +25,6 @@ sans-serif;
         padding-left: 10%;
         padding-right: 10%;
         width: 100%;
-        height: 900px;
 
 
         h2 {
@@ -70,6 +69,7 @@ sans-serif;
         background-size: cover;
         background-position: center;
         padding-bottom: 1rem;
+        height: 900px;
         clip-path: polygon(0% 0%,
             100% 0%,
             100% calc(100% - 7rem),
@@ -90,6 +90,7 @@ sans-serif;
         display: flex;
         justify-content: center;
         transform: translateY(-35rem);
+
         button {
             font-size: 15px;
             padding: 15px 25px;
@@ -157,7 +158,7 @@ nav {
 
 .page2 {
     width: 100%;
-    height: 400px;
+    padding: 60px 0;
 
     .forimg {
         width: 550px;
@@ -198,7 +199,7 @@ nav {
 
 .page3 {
     width: 100%;
-    height: 850px;
+    padding: 60px 0;
 
     .forline2 {
         color: white;
@@ -253,7 +254,7 @@ nav {
 
 .page4 {
     width: 100%;
-    height: 900px;
+    padding: 65px 0;
 
     .forline3 {
         color: white;
@@ -367,7 +368,7 @@ nav {
 
 .page5 {
     width: 100%;
-    height: 1350px;
+    padding: 80px 0;
     background-color: $bg-color;
 
     .forline4 {
@@ -661,7 +662,7 @@ nav {
 
 .page6 {
     width: 100%;
-    height: 500px;
+    padding: 60px 0;
 
     .forline5 {
         color: white;
@@ -723,7 +724,7 @@ nav {
 // Page 7
 .page7 {
     width: 100%;
-    height: 900px;
+    padding: 60px 0;
     background-color: $bg-color;
 
     .forline6 {
@@ -842,7 +843,7 @@ nav {
 
 footer {
     width: 100%;
-    height: 600px;
+    padding: 50px 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -947,7 +948,7 @@ footer {
             }
         }
 
-        
+
 
     }
 
@@ -956,9 +957,10 @@ footer {
         flex-direction: column;
         width: auto;
         position: relative;
+        margin-left: -4rem;
 
         .forimg {
-            width: 100%;
+            width: 320px;
         }
 
         .page2-text {
@@ -975,7 +977,7 @@ footer {
 
     // Page 3
     .page3 {
-        margin-top: 23rem;
+        margin-top: 15rem;
         width: auto;
 
         .imgs {
@@ -991,7 +993,6 @@ footer {
 
     // Page 4
     .page4 {
-        margin-top: 70rem;
         width: auto;
 
         .imgs {
@@ -1001,6 +1002,7 @@ footer {
             .img2,
             .img3 {
                 margin: auto;
+                width: 320px;
             }
 
         }
@@ -1008,9 +1010,7 @@ footer {
 
     // Page 5
     .page5 {
-        margin-top: 80rem;
         width: auto;
-        height: auto;
     }
 
     .box12,
@@ -1033,7 +1033,7 @@ footer {
     }
 
     // Page 6
-    .page6{
+    .page6 {
         width: auto;
         margin-top: 2rem;
     }
@@ -1042,10 +1042,15 @@ footer {
     .page7 {
         margin-top: 15rem;
         width: auto;
-        height: auto;
 
         .isvts {
             flex-direction: column;
+
+            .itv1,
+            .itv2 {
+                width: auto;
+                height: auto;
+            }
         }
     }
 
@@ -1055,14 +1060,10 @@ footer {
         margin-top: 10rem;
         margin-left: 2rem;
         width: auto;
-        height: auto;
 
         .footer3 {
             margin-top: 4rem;
             margin-left: -15rem;
         }
     }
-
-
-
 }
